@@ -32,3 +32,25 @@ th, td {
 .right {
     text-align: right;
 }
+
+.returnproject button {
+    position: relative;
+    top: 10px;
+    background-color: #52ccf5; /* Màu xanh da trời */
+    color: #fff; /* Màu chữ trắng */
+    padding: 10px 20px; /* Kích thước nút */
+    border: none; /* Loại bỏ đường viền */
+    cursor: pointer; /* Biến con trỏ thành bàn tay khi di chuột qua nút */
+    display: flex; /* Sử dụng flexbox để căn giữa nội dung */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+/* Định dạng mũ tên (mũ tên hướng qua trái) */
+.returnproject .arrow {
+    margin-right: 5px; /* Khoảng cách giữa mũ tên và chữ "Return Project" */
+}
+
+/* Định dạng khi di chuột qua nút */
+.returnproject button:hover {
+    background-color: #0073e6; /* Màu xanh da trời nhạt hơn khi di chuột qua */
+}

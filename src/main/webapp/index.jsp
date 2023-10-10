@@ -27,5 +27,11 @@
     </c:forEach>
 </table>
 
+<form class="returnproject" method="get" action="https://ltwgiuaki-final.onrender.com/home/#home">
+    <button type="submit">
+        <span class="arrow"></span> Return Profile
+    </button>
+</form>
+</form>
 </body>
 </html>
