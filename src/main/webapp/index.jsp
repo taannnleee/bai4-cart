@@ -30,7 +30,7 @@
 
 <form class="returnproject" method="get" action="https://ltwgiuaki-final.onrender.com/home/#home">
     <button type="submit">
-        <span class="arrow"></span> Return Profile
+        <input type="submit" value="Return Profile" class="margin_left pad_top btn btn-outline-success">
     </button>
 </form>
 </form>
