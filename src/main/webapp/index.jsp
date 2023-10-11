@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Murach's Java Servlets and JSP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css" type="text/css"/>
 </head>
 <body>
@@ -21,7 +22,7 @@
             <td class="right">${product.priceCurrencyFormat}</td>
             <td><form action="cart" method="post">
                 <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
-                <input type="submit" value="Add To Cart">
+                <input type="submit" value="Add To Cart" class="btn btn-outline-success">
             </form></td>
         </tr>
     </c:forEach>
